@@ -5,8 +5,8 @@ import { Cargo } from './Cargo';
 export class Rocket implements Payload {
     name: string;
     totalCapacityKg: number;
-    cargoItems: Cargo [];
-    astronauts: Astronaut [];
+    cargoItems: Cargo [] = [];
+    astronauts: Astronaut [] = [];
     massKg: number;
 
     constructor(name: string, totalCapacityKg: number){

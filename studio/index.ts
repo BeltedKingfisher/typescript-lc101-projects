@@ -3,6 +3,7 @@
 import { Rocket } from './Rocket';
 import { Cargo } from './Cargo';
 import { Astronaut } from './Astronaut';
+import {Payload} from './Payload';
 
 let falcon9: Rocket = new Rocket('Falcon 9', 7500);
 
